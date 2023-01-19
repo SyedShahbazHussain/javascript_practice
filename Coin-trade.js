@@ -54,12 +54,16 @@ const coinData = [
             "exchange": "binance"
         }
     ]
-const getCoin = coinData.filter(e => e.symbol === "ADA")
-const BuyCoinsAmount = getCoin.map(e => e.buyAmount)
-const BoyCoinsAP = getCoin.map(e => e.buyAmount * e.buyPrice)
+// const getCoin = coinData.filter(e => e.symbol === "ADA")
+// const BuyCoinsAmount = getCoin.map(e => e.buyAmount)
+// const BoyCoinsAP = getCoin.map(e => e.buyAmount * e.buyPrice)
 
-console.log(BoyCoinsAP.reduce((a, b) => a + b, 0) / BuyCoinsAmount.reduce((a, b) => a + b, 0))
+// console.log(BoyCoinsAP.reduce((a, b) => a + b, 0) / BuyCoinsAmount.reduce((a, b) => a + b, 0))
 
+const arrOfNumbers = [9,1,8,3,4]
+// console.log(arrOfNumbers.reduce((accumulator, currentValue, index, array)=>array[index]=array[index]*2))
+arrOfNumbers.reduce((accumulator, currentValue, index, array)=>console.log(array[index]=array[index]*2))
+console.log(arrOfNumbers,'object');
 
 // function costPerCoinAverage (purchases, coin){
 //     const coinPurchases = purchases.filter(e => e.symbol === coin.symbol)

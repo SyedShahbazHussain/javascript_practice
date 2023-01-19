@@ -4,15 +4,15 @@
     "description": "",
     "main": "Coin-trade.js",
     "scripts": {
-      "devStart": "nodemon Coin-trade.js"
+        "devStart": "nodemon Coin-trade.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "lodash": "^4.17.21"
     },
     "devDependencies": {
-      "dotenv": "^9.0.2",
-      "nodemon": "^2.0.7"
+        "dotenv": "^9.0.2",
+        "nodemon": "^2.0.7"
     }
-  }
-  
+}
