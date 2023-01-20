@@ -35,5 +35,5 @@ printFullName.apply(name3, ['Islamabad'])
 let printData = printFullName.bind(name2, 'Karachi')
 printData()
 
-// conclusion=> the diff b/w call & apply is call take data of obj as second argument and apply takes array as second argument,
+// conclusion=>invoke a function and set its "this" value explicitly the diff b/w call & apply is call take data of obj as second argument and apply takes array as second argument,
 // bind is use to make a copy and invoke or use it letter 
